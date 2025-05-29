@@ -1,0 +1,43 @@
+.navbar{
+    position:fixed;
+    left:0;
+    width:72px;
+    top:57px;
+    bottom:0;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+
+    align-items: center;
+    padding-top:0px;
+    z-index:200;
+
+
+}
+
+.navbar-link{
+    height:74px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.navbar-link img{
+    height:24px;
+}
+
+.navbar-link p{
+
+    font-size:10px;
+    margin-top:6.5px;
+
+
+}
+
+.navbar-link:hover{
+    width:100%;
+    cursor:pointer;
+    background-color:rgb(230, 230, 230);
+}
